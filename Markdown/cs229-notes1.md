@@ -572,6 +572,10 @@ $$
 $$ 
 p(y;\eta) =b(y)exp(\eta^TT(y)-a(\eta)) \qquad \text{(6)}
 $$
+即
+$$ 
+p(y;\eta) =b(y)\frac{e^{\eta^TT(y)}}{e^{a(\eta)}} \qquad \text{(7)}
+$$
 
 上面的式子中，$\eta$ 叫做此分布的**自然参数** （natural parameter，也叫**典范参数 canonical parameter**） ； $T(y)$ 叫做**充分统计量（sufficient statistic）** ，我们目前用的这些分布中通常 $T (y) = y$；而 $a(\eta)$ 是一个**对数分割函数（log partition function）。** $e^{−a(\eta)}$ 这个量本质上扮演了归一化常数（normalization constant）的角色，也就是确保 $p(y; \eta)$ 的总和或者积分等于$1$。
 
