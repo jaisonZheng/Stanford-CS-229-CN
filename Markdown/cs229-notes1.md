@@ -567,7 +567,7 @@ $$
 
 #### 8 指数族 (The exponential family)
 
-在学习 GLMs 之前，我们要先定义一下指数组分布（exponential family distributions）。如果一个分布能用下面的方式来写出来，我们就说这类分布属于指数族：
+在学习 GLMs 之前，我们要先定义一下指数族分布（exponential family distributions）。如果一个分布能用下面的方式来写出来，我们就说这类分布属于指数族：
 
 $$ 
 p(y;\eta) =b(y)exp(\eta^TT(y)-a(\eta)) \qquad \text{(6)}
